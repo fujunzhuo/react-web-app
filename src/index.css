@@ -1,0 +1,11 @@
+html,body{
+    background: white;
+}
+.border-none{
+    border:none;
+}
+.iconfont{
+    color:#32b4ed;
+    font-size: 23px;
+    background-position: center center;
+}
