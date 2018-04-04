@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter,HashRouter,MemoryRouter, Route, Switch} from 'react-router-dom'
 import {store} from './store'
 import './config/config'
 import './static/iconfont/iconfont.css'
@@ -11,7 +11,7 @@ import {Register, Login, VerifCode, Home, SetPassword} from './container'
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <MemoryRouter>
             <div>
                 <Switch>
                     <Route path="/" exact component={Login}/>
@@ -22,7 +22,7 @@ ReactDOM.render(
                     <Route path="/home" component={Home}/>
                 </Switch>
             </div>
-        </BrowserRouter>
+        </MemoryRouter>
     </Provider>,
     document.getElementById('root')
 );

@@ -19,8 +19,8 @@ export function login({account,password}){
     return dispatch => {
         axios.post(api.paths.login,{account,password,type:1})
             .then(res =>{
-                console.log('res.data',res.data)
-                //return dispatch(loginSuccess())
+                console.log('res',res)
+                return dispatch(loginSuccess())
 
 
 
@@ -33,6 +33,8 @@ export function login({account,password}){
                 }
 */
 
-            })
+            }).catch( e => {
+                console.log('error',e)
+        })
     }
 }
