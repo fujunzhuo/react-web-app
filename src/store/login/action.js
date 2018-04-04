@@ -7,6 +7,10 @@ export function errorMsg(msg) {
 }
 
 
+function loginSuccess() {
+    return {type:type.TYPE_LOGIN}
+}
+
 
 export function login({account,password}){
     if(!account || !password){
@@ -15,8 +19,8 @@ export function login({account,password}){
     return dispatch => {
         axios.post(api.paths,{account,password,type:1})
             .then(res =>{
-
                 console.log('res.data',res.data)
+                //return dispatch(loginSuccess())
 
 
 
