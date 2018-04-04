@@ -1,0 +1,41 @@
+.iconfont{
+    width: 22px;
+    height: 22px;
+}
+.home-container{
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+}
+.am-navbar.am-navbar-dark{
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.am-tabs-content-wrap{
+    padding-top: 45px;
+}
+.am-navbar-right a.am-button.am-button-icon:before{
+    border:none;
+}
+.am-button > .am-button-icon{
+    margin-right: 0;
+}
+.scan-qrcode i,.add-friends i{
+    color:white;
+}
+.scan-qrcode,.add-friends{
+    text-align: center;
+    background: transparent;
+    color:white;
+    border:none;
+    margin: 0 5px;
+}
+.scan-qrcode{
+
+}
+
+.add-friends{
+
+}

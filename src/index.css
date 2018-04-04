@@ -9,3 +9,9 @@ html,body{
     font-size: 23px;
     background-position: center center;
 }
+.error-msg{
+    color:#ff000096;
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 18px;
+}
