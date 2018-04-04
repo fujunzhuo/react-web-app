@@ -6,6 +6,6 @@ const reducers = combineReducers({login})
 
 export const store = createStore(reducers,compose(
     applyMiddleware(thunk),
-    window.devToolsExtension ? window.devToolsExtension() : ()=>null
+    window.devToolsExtension ? window.devToolsExtension() : f => f
 ))
 

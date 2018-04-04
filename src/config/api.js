@@ -10,7 +10,7 @@ export const api =  {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+            'Content-Type': 'application/x-www-form-urlencoded'
         }
     },
     paths: {
