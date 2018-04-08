@@ -11,7 +11,7 @@ import {Register, Login, VerifCode, Home, SetPassword} from './container'
 
 ReactDOM.render(
     <Provider store={store}>
-        <HashRouter>
+        <MemoryRouter>
             <div>
                 <Switch>
                     <Route path="/" exact component={Home}/>
@@ -22,7 +22,7 @@ ReactDOM.render(
                     <Route path="/home" component={Home}/>
                 </Switch>
             </div>
-        </HashRouter>
+        </MemoryRouter>
     </Provider>,
     document.getElementById('root')
 );
