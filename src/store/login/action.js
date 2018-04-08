@@ -13,28 +13,22 @@ function loginSuccess() {
 
 
 export function login({account,password}){
-    if(!account || !password){
-        return errorMsg('用户名密码必须输入')
-    }
+    if(!account) return errorMsg('用户名不能为空')
+    if(!api.validation.phone.test(account)) return errorMsg('请输入正确的手机号')
+    if(!password) return errorMsg('密码不能为空')
     return dispatch => {
         axios.post(api.paths.login,{account,password,type:1})
             .then(res =>{
-                console.log('res',res)
-                return dispatch(loginSuccess())
-
-
-
-    /*
+                dispatch(loginSuccess())
+                //console.log('res',res)
                 if(res.status == 200 && res.data.code === 0){
-                    dispatch(authSuccess(res.data.data))
+                    dispatch(loginSuccess())
                 }
                 else {
                     dispatch(errorMsg(res.data.msg))
                 }
-*/
-
             }).catch( e => {
-                console.log('error',e)
-        })
+                //console.log('error',e)
+            })
     }
 }

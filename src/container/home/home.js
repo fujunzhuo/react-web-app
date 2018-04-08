@@ -3,8 +3,9 @@ import {List, InputItem, WingBlank, WhiteSpace, Button, Radio,Flex,NavBar,Icon} 
 import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
 import { TabBar } from 'antd-mobile';
-
 import './home.css'
+import {ElementBlank} from '../../component'
+import Message from '../message/message'
 
 
 export default class Home extends React.Component {
@@ -41,11 +42,11 @@ export default class Home extends React.Component {
                     mode="dark"
                     onLeftClick={() => console.log('onLeftClick')}
                     rightContent={[
-                        <Button className="scan-qrcode" icon={<i className="iconfont icon-saomiao" />} />,
-                        <Button className="add-friends" icon={<i className="iconfont icon-tianjia" />} />
-                    ]}
-                >教育口</NavBar>
-
+                        <Button className="scan-qrcode" key={1} icon={<i className="iconfont icon-saomiao" />} />,
+                        <Button className="add-friends" key={2} icon={<i className="iconfont icon-tianjia" />} />
+                    ]}>
+                    <div className="home-navbar-title">教育口</div>
+                </NavBar>
                 <TabBar
                     unselectedTintColor="#949494"
                     tintColor="#33A3F4"
@@ -58,7 +59,8 @@ export default class Home extends React.Component {
                         selectedIcon={ <i className="iconfont icon-xiaoxi" />}
                         selected={ selectedTab === 'message'}
                         onPress={() => {this.setState({selectedTab: 'message'});}}>
-                        消息消息消息
+                        <Message />
+                        <ElementBlank height={40} />
                     </TabBar.Item>
                     <TabBar.Item
                         title="校园邮"

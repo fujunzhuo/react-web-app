@@ -18,7 +18,7 @@ axios.interceptors.request.use(function (config) {
 },function (error) {
     Toast.hide()
     console.log("请求错误 error:",error)
-    return Promise.reject(error);
+    return error;
 })
 
 
@@ -29,8 +29,8 @@ axios.interceptors.response.use(function (config) {
     return config
 }, function (error) {
     Toast.hide()
-    console.log("响应错误 error:")
-    //return Promise.reject(error);
+    console.log("响应错误 error:",error)
+    return error;
 })
 
 

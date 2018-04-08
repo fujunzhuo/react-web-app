@@ -11,7 +11,7 @@ import {ElementBlank} from '../../component'
 
 @connect(
     state => state.login,
-    { login}
+    { login }
 )
 export default class Login extends Component {
 

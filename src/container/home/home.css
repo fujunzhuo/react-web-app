@@ -1,5 +1,5 @@
 .iconfont{
-    width: 22px;
+    width: 23px;
     height: 22px;
 }
 .home-container{
@@ -8,14 +8,15 @@
     width:100%;
     top:0;
 }
+.am-tab-bar-bar{
+    bottom: 39px;
+}
 .am-navbar.am-navbar-dark{
-    position: absolute;
     width: 100%;
-    top:0;
 }
 .am-tabs-content-wrap{
-    padding-top: 45px;
 }
+
 .am-navbar-right a.am-button.am-button-icon:before{
     border:none;
 }
@@ -30,12 +31,8 @@
     background: transparent;
     color:white;
     border:none;
-    margin: 0 5px;
+    margin: 0 7px;
 }
-.scan-qrcode{
-
-}
-
-.add-friends{
-
+.home-navbar-title{
+    font-weight: 500;
 }

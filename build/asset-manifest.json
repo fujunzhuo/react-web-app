@@ -1,9 +1,10 @@
 {
-  "main.css": "static/css/main.d6fa8793.css",
-  "main.css.map": "static/css/main.d6fa8793.css.map",
-  "main.js": "static/js/main.1a739749.js",
-  "main.js.map": "static/js/main.1a739749.js.map",
-  "static/media/iconfont.eot?t=1522812766159": "static/media/iconfont.0357fcba.eot",
-  "static/media/iconfont.svg?t=1522812766159": "static/media/iconfont.269c3a2b.svg",
-  "static/media/iconfont.ttf?t=1522812766159": "static/media/iconfont.d9f9e9a9.ttf"
+  "main.css": "static/css/main.09a2e3cc.css",
+  "main.css.map": "static/css/main.09a2e3cc.css.map",
+  "main.js": "static/js/main.71262013.js",
+  "main.js.map": "static/js/main.71262013.js.map",
+  "static\\media\\head-logo.png": "static/media/head-logo.0c220d9d.png",
+  "static\\media\\iconfont.eot?t=1522812766159": "static/media/iconfont.0357fcba.eot",
+  "static\\media\\iconfont.svg?t=1522812766159": "static/media/iconfont.269c3a2b.svg",
+  "static\\media\\iconfont.ttf?t=1522812766159": "static/media/iconfont.d9f9e9a9.ttf"
 }
