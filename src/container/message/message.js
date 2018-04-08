@@ -82,15 +82,6 @@ export default class Message extends Component {
                     {this.renderRow()}
                     {this.renderRow()}
                     {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
-                    {this.renderRow()}
                 </List>
             </div>
         )
