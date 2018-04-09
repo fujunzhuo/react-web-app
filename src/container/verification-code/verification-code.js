@@ -35,7 +35,7 @@ export default class VerifCode extends Component {
                             <i className="iconfont icon-securityCode-b"></i>
                         </InputItem>
                     </List>
-                    <ElementBlank height={50}/>
+                    <ElementBlank height={50} />
                     <Button type="primary" onClick={this.setPassword}>下一步</Button>
                     <ElementBlank height={20} />
                 </WingBlank>

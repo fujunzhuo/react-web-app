@@ -1,0 +1,32 @@
+.me-header{
+    border: 1px solid #E6E7E7;
+    height: 183px;
+    margin: 20px auto;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    width: 90%;
+    padding: 20px;
+}
+.me-head-text{
+    height: 80px;
+}
+.me-head-uname{
+    font-size: 20px;
+    font-weight: bold;
+}
+.me-head-logo{
+    width: 50px;
+    height: 50px;
+    background: #3296FA;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.me-company{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.me-work-state{
+
+}

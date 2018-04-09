@@ -1,0 +1,44 @@
+.adbook-headitem{
+    text-align: center;
+    line-height: 30px;
+}
+.adbook-headitem p{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 18px;
+    color: #97999C;
+}
+.addbook-head{
+    padding: 10px 0;
+}
+.contact-list{
+
+}
+.contact-list .contact-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-list .contact-context{
+    margin: 10px 0;
+}
+.contact-list .contact-context img{
+    width: 30px;
+    height: 30px;
+
+
+}
+.contact-list .contact-context p{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.am-list-line.am-list-line-multiple .am-list-content p{
+    margin: 0;
+}
+
+
+
+
+
+

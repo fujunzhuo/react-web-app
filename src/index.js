@@ -14,7 +14,7 @@ ReactDOM.render(
         <MemoryRouter>
             <div>
                 <Switch>
-                    <Route path="/" exact component={Login}/>
+                    <Route path="/" exact component={Home}/>
                     <Route path="/login" component={Login}/>
                     <Route path="/register" component={Register}/>
                     <Route path="/verifcode" component={VerifCode}/>

@@ -6,6 +6,8 @@ import { TabBar } from 'antd-mobile';
 import './home.css'
 import {ElementBlank} from '../../component'
 import Message from '../message/message'
+import AddBook from '../addbook/addbook'
+import Me from '../me/me'
 
 
 export default class Home extends React.Component {
@@ -70,6 +72,7 @@ export default class Home extends React.Component {
                         selected={selectedTab === 'email'}
                         onPress={() => {this.setState({selectedTab: 'email'});}}>
                         校园邮校园邮校园邮
+                        <ElementBlank height={40} />
                     </TabBar.Item>
                     <TabBar.Item
                         title="工作"
@@ -87,7 +90,8 @@ export default class Home extends React.Component {
                         selectedIcon={<i className="iconfont icon-tongxunluintouch01" />}
                         selected={selectedTab === 'addbook'}
                         onPress={() => {this.setState({selectedTab: 'addbook'});}}>
-                        通讯录通讯录通讯录
+                        <AddBook />
+                        <ElementBlank height={40} />
                     </TabBar.Item>
                     <TabBar.Item
                         title="我的"
@@ -96,7 +100,8 @@ export default class Home extends React.Component {
                         selectedIcon={ <i className="iconfont icon-wode-active" />}
                         selected={selectedTab === 'my'}
                         onPress={() => {this.setState({selectedTab: 'my'});}}>
-                        我的我的我的
+                        <Me />
+                        <ElementBlank height={40} />
                     </TabBar.Item>
                 </TabBar>
             </div>
