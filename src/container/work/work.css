@@ -1,0 +1,45 @@
+.work-head{
+    text-align: center;
+}
+.work-head-img{
+    width: 90%;
+    margin: auto;
+}
+.adbook-headitem p.work-approval{
+    font-size: 20px;
+    font-weight: 500;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.work-common-container{
+
+
+}
+.work-common-app{
+    font-size: 20px;
+    padding-left: 16px;
+
+}
+.work-app-list{
+    width: 100%;
+    margin: 30px auto;
+
+}
+.work-app-list p{
+    text-align: center;
+    margin: 7px auto;
+}
+.work-app-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4DA9EC;
+    margin: 0 auto;
+}
+.work-app-list-foot{
+    margin: 0 15px;
+}
+
+
+

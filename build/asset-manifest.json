@@ -1,10 +1,11 @@
 {
-  "main.css": "static/css/main.144fcdae.css",
-  "main.css.map": "static/css/main.144fcdae.css.map",
-  "main.js": "static/js/main.45092cc0.js",
-  "main.js.map": "static/js/main.45092cc0.js.map",
+  "main.css": "static/css/main.24d10fa6.css",
+  "main.css.map": "static/css/main.24d10fa6.css.map",
+  "main.js": "static/js/main.6b94b71c.js",
+  "main.js.map": "static/js/main.6b94b71c.js.map",
   "static\\media\\head-logo.png": "static/media/head-logo.0c220d9d.png",
   "static\\media\\iconfont.eot?t=1522812766159": "static/media/iconfont.0357fcba.eot",
   "static\\media\\iconfont.svg?t=1522812766159": "static/media/iconfont.269c3a2b.svg",
-  "static\\media\\iconfont.ttf?t=1522812766159": "static/media/iconfont.d9f9e9a9.ttf"
+  "static\\media\\iconfont.ttf?t=1522812766159": "static/media/iconfont.d9f9e9a9.ttf",
+  "static\\media\\word-head.png": "static/media/word-head.9d7dfcbf.png"
 }

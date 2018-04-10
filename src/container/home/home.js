@@ -8,6 +8,8 @@ import {ElementBlank} from '../../component'
 import Message from '../message/message'
 import AddBook from '../addbook/addbook'
 import Me from '../me/me'
+import Work from '../work/work'
+import Email from '../email/email'
 
 
 export default class Home extends React.Component {
@@ -71,7 +73,7 @@ export default class Home extends React.Component {
                         selectedIcon={ <i className="iconfont icon-youjian2" />}
                         selected={selectedTab === 'email'}
                         onPress={() => {this.setState({selectedTab: 'email'});}}>
-                        校园邮校园邮校园邮
+                        <Email />
                         <ElementBlank height={40} />
                     </TabBar.Item>
                     <TabBar.Item
@@ -81,7 +83,8 @@ export default class Home extends React.Component {
                         selectedIcon={ <i className="iconfont icon-gongzuoshi1" />}
                         selected={selectedTab === 'work'}
                         onPress={() => {this.setState({selectedTab: 'work'});}}>
-                        工作工作工作
+                        <Work />
+                        <ElementBlank height={40} />
                     </TabBar.Item>
                     <TabBar.Item
                         title="通讯录"
