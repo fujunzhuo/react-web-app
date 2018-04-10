@@ -26,8 +26,8 @@
     vertical-align: middle;
     position: relative;
     top:11px;
-    font-size: 10px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 400;
     color:#BBBBBB;
 }
 .msg-row-rtleft{
@@ -39,15 +39,15 @@
     margin: 10px 0;
     display: inline-block;
     vertical-align: middle;
-    font-size: 13px;
+    font-size: 17px;
 }
 .msg-row-rtleft .msg-row-rticon{
     display: inline-block;
     background: #3FB0FF;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 13px;
     color:white;
     font-weight: 100;
     vertical-align: middle;
@@ -63,7 +63,7 @@
     margin-left: 16px;
 }
 .msg-row-rbtext{
-    font-size: 10px;
+    font-size: 14px;
     color:#BBBBBB;
-    font-weight: 100;
+    font-weight: 400;
 }

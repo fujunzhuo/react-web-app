@@ -36,3 +36,9 @@
 .home-navbar-title{
     font-weight: 500;
 }
+.am-tab-bar-bar .am-tab-bar-tab{
+  padding-bottom: 6px;
+}
+.am-tab-bar-bar .am-tab-bar-tab-title{
+   margin-top: 7px;
+}
