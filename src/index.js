@@ -11,10 +11,10 @@ import {Register, Login, VerifCode, Home, SetPassword} from './container'
 
 ReactDOM.render(
     <Provider store={store}>
-        <MemoryRouter>
+        <HashRouter>
             <div>
                 <Switch>
-                    <Route path="/" exact component={Home}/>
+                    <Route path="/" exact component={Login}/>
                     <Route path="/login" component={Login}/>
                     <Route path="/register" component={Register}/>
                     <Route path="/verifcode" component={VerifCode}/>
@@ -23,7 +23,7 @@ ReactDOM.render(
                     <Route component={Login}/>
                 </Switch>
             </div>
-        </MemoryRouter>
+        </HashRouter>
     </Provider>,
     document.getElementById('root')
 );
