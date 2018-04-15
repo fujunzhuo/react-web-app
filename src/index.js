@@ -20,7 +20,6 @@ ReactDOM.render(
                     <Route path="/verifcode" component={VerifCode}/>
                     <Route path="/set-password" component={SetPassword}/>
                     <Route path="/home" component={Home}/>
-                    <Route component={Login}/>
                 </Switch>
             </div>
         </MemoryRouter>
